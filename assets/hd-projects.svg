@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="32" viewBox="0 0 850 32" fill="none">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#818cf8" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .idx { fill: #38bdf8; font-weight: 700; font-size: 13px; }
+    .label { fill: #f0f6fc; font-weight: 700; font-size: 14.5px; letter-spacing: 1.5px; }
+    @media (prefers-color-scheme: light) {
+      .label { fill: #0f172a; }
+      .idx { fill: #0284c7; }
+    }
+  </style>
+  <text x="0" y="21" class="mono idx">// 03.</text>
+  <text x="46" y="21" class="mono label">FEATURED WORK &amp; PRODUCTION SYSTEMS</text>
+  <circle cx="398" cy="16" r="3" fill="#38bdf8"/>
+  <circle cx="398" cy="16" r="5.5" fill="#38bdf8" opacity="0.25"/>
+  <line x1="412" y1="16" x2="850" y2="16" stroke="url(#lineGrad)" stroke-width="1.5"/>
+</svg>

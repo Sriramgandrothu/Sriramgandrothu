@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="180" viewBox="0 0 850 180" fill="none">
+  <defs>
+    <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="areaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <linearGradient id="linePulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <clipPath id="sweep">
+      <rect x="0" y="0" height="180" width="0">
+        <animate attributeName="width" from="0" to="850" begin="0.2s" dur="1.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="848" height="178" rx="10" fill="url(#statsBg)"/>
+  <rect x="1" y="1" width="848" height="178" rx="10" fill="none" stroke="url(#borderGrad2)" stroke-width="1.2"/>
+
+  <!-- Left Stats Block: Key Numbers -->
+  <g transform="translate(32, 28)">
+    <text x="0" y="18" fill="#64748b" font-size="10.5" font-weight="600" class="mono" letter-spacing="1">TELEMETRY // HIGHLIGHTS</text>
+    
+    <!-- Stat 1 -->
+    <text x="0" y="58" fill="#f8fafc" font-size="28" font-weight="800" class="mono">35+</text>
+    <text x="0" y="74" fill="#94a3b8" font-size="11" class="mono">Public Repositories</text>
+
+    <!-- Stat 2 -->
+    <text x="140" y="58" fill="#38bdf8" font-size="28" font-weight="800" class="mono">8.45</text>
+    <text x="140" y="74" fill="#94a3b8" font-size="11" class="mono">Engineering GPA / 10</text>
+
+    <!-- Stat 3 -->
+    <text x="270" y="58" fill="#10b981" font-size="28" font-weight="800" class="mono">-30%</text>
+    <text x="270" y="74" fill="#94a3b8" font-size="11" class="mono">QA Exceptions Reduced</text>
+  </g>
+
+  <!-- Center Divider -->
+  <line x1="390" y1="20" x2="390" y2="160" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Right Block: Telemetry Sparkline & Momentum -->
+  <g transform="translate(420, 28)">
+    <text x="0" y="18" fill="#64748b" font-size="10.5" font-weight="600" class="mono" letter-spacing="1">SYSTEM PULSE // CODE MOMENTUM</text>
+    
+    <!-- Mini Metric Pills -->
+    <g transform="translate(240, 6)">
+      <rect x="0" y="0" width="150" height="18" rx="9" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <circle cx="10" cy="9" r="3" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="20" y="12.5" fill="#94a3b8" font-size="9.5" font-weight="600" class="mono">ACTIVE PRODUCTION</text>
+    </g>
+
+    <!-- Sparkline Graphic -->
+    <g clip-path="url(#sweep)" transform="translate(0, 36)">
+      <!-- Filled Area -->
+      <path d="M0,70 L20,62 L45,65 L70,48 L95,54 L120,38 L145,42 L170,25 L195,30 L220,18 L245,22 L270,12 L295,15 L320,8 L345,14 L370,5 L395,10 L395,80 L0,80 Z" fill="url(#areaGrad)"/>
+      
+      <!-- Stroke Path -->
+      <path d="M0,70 L20,62 L45,65 L70,48 L95,54 L120,38 L145,42 L170,25 L195,30 L220,18 L245,22 L270,12 L295,15 L320,8 L345,14 L370,5 L395,10" fill="none" stroke="url(#linePulse)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <!-- Glowing Peak Dot -->
+      <circle cx="370" cy="5" r="4" fill="#c084fc"/>
+      <circle cx="370" cy="5" r="7" fill="#c084fc" opacity="0.3"/>
+    </g>
+
+    <!-- Bottom X-Axis labels -->
+    <text x="5" y="132" fill="#64748b" font-size="10" class="mono">Q1 ARCHITECTURE</text>
+    <text x="145" y="132" fill="#64748b" font-size="10" class="mono">Q2 FULL-STACK</text>
+    <text x="285" y="132" fill="#38bdf8" font-size="10" class="mono" font-weight="600">Q3-Q4 PRODUCTION ↑</text>
+  </g>
+
+  <!-- Bottom Interactive Bar -->
+  <g transform="translate(32, 130)">
+    <text x="0" y="16" fill="#64748b" font-size="10.5" class="mono">DOMAINS:</text>
+    <rect x="68" y="4" width="75" height="18" rx="4" fill="#38bdf8" fill-opacity="0.1"/>
+    <text x="76" y="16" fill="#38bdf8" font-size="10" font-weight="600" class="mono">Next.js</text>
+
+    <rect x="150" y="4" width="85" height="18" rx="4" fill="#818cf8" fill-opacity="0.1"/>
+    <text x="158" y="16" fill="#818cf8" font-size="10" font-weight="600" class="mono">TypeScript</text>
+
+    <rect x="242" y="4" width="80" height="18" rx="4" fill="#10b981" fill-opacity="0.1"/>
+    <text x="250" y="16" fill="#10b981" font-size="10" font-weight="600" class="mono">Supabase</text>
+  </g>
+</svg>

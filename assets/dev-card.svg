@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="260" viewBox="0 0 850 260" fill="none">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="50%" stop-color="#0e131f"/>
+      <stop offset="100%" stop-color="#0a0d14"/>
+    </linearGradient>
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .code-font {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 12.5px;
+      fill: #cbd5e1;
+    }
+    .ln { fill: #475569; }
+    .kw { fill: #c084fc; font-weight: 600; }
+    .type { fill: #38bdf8; font-weight: 600; }
+    .prop { fill: #93c5fd; }
+    .str { fill: #86efac; }
+    .punc { fill: #94a3b8; }
+    .comment { fill: #64748b; font-style: italic; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect x="1" y="1" width="848" height="258" rx="10" fill="url(#cardBg)"/>
+  <rect x="1" y="1" width="848" height="258" rx="10" fill="none" stroke="url(#cardBorder)" stroke-width="1.2"/>
+
+  <!-- Top Tab Bar -->
+  <line x1="1" y1="34" x2="849" y2="34" stroke="#1e293b" stroke-width="1"/>
+  
+  <!-- Active Tab -->
+  <rect x="1" y="1" width="168" height="33" rx="8" fill="#141c2b"/>
+  <circle cx="16" cy="17" r="3" fill="#38bdf8"/>
+  <text x="28" y="21" fill="#e2e8f0" font-size="11" class="code-font" font-weight="600">developer.profile.ts</text>
+
+  <!-- Status / Mode on right -->
+  <text x="830" y="21" text-anchor="end" fill="#64748b" font-size="10.5" class="code-font">TypeScript 5.4 · ESM</text>
+
+  <!-- Code Body -->
+  <!-- Line 1 -->
+  <text x="24" y="60" class="code-font ln">01</text>
+  <text x="56" y="60" class="code-font"><tspan class="kw">export const</tspan> <tspan class="type">engineer</tspan> <tspan class="punc">=</tspan> <tspan class="punc">{</tspan></text>
+
+  <!-- Line 2 -->
+  <text x="24" y="82" class="code-font ln">02</text>
+  <text x="76" y="82" class="code-font"><tspan class="prop">name</tspan><tspan class="punc">:</tspan> <tspan class="str">"Gandrothu Satya Siva Sai Sriram"</tspan><tspan class="punc">,</tspan></text>
+
+  <!-- Line 3 -->
+  <text x="24" y="104" class="code-font ln">03</text>
+  <text x="76" y="104" class="code-font"><tspan class="prop">currentRole</tspan><tspan class="punc">:</tspan> <tspan class="str">"Software Developer @ Saptarishi Solutions"</tspan><tspan class="punc">,</tspan></text>
+
+  <!-- Line 4 -->
+  <text x="24" y="126" class="code-font ln">04</text>
+  <text x="76" y="126" class="code-font"><tspan class="prop">credentials</tspan><tspan class="punc">:</tspan> <tspan class="str">"B.Tech in ECE — SRKR Engg. College (GPA: 8.45/10.0)"</tspan><tspan class="punc">,</tspan></text>
+
+  <!-- Line 5 -->
+  <text x="24" y="148" class="code-font ln">05</text>
+  <text x="76" y="148" class="code-font"><tspan class="prop">coreStack</tspan><tspan class="punc">:</tspan> <tspan class="punc">[</tspan><tspan class="str">"Next.js 14"</tspan><tspan class="punc">,</tspan> <tspan class="str">"TypeScript"</tspan><tspan class="punc">,</tspan> <tspan class="str">"React"</tspan><tspan class="punc">,</tspan> <tspan class="str">"Supabase"</tspan><tspan class="punc">,</tspan> <tspan class="str">"PostgreSQL"</tspan><tspan class="punc">],</tspan></text>
+
+  <!-- Line 6 -->
+  <text x="24" y="170" class="code-font ln">06</text>
+  <text x="76" y="170" class="code-font"><tspan class="prop">architectureFocus</tspan><tspan class="punc">:</tspan> <tspan class="punc">[</tspan><tspan class="str">"Resilient APIs"</tspan><tspan class="punc">,</tspan> <tspan class="str">"Scalable Full-Stack"</tspan><tspan class="punc">,</tspan> <tspan class="str">"UI/UX Craft"</tspan><tspan class="punc">],</tspan></text>
+
+  <!-- Line 7 -->
+  <text x="24" y="192" class="code-font ln">07</text>
+  <text x="76" y="192" class="code-font"><tspan class="prop">impact</tspan><tspan class="punc">:</tspan> <tspan class="str">"30% QA exception reduction via strict validation &amp; edge logic"</tspan><tspan class="punc">,</tspan></text>
+
+  <!-- Line 8 -->
+  <text x="24" y="214" class="code-font ln">08</text>
+  <text x="76" y="214" class="code-font"><tspan class="prop">status</tspan><tspan class="punc">:</tspan> <tspan class="str">"Building production systems &amp; open to high-impact projects"</tspan></text>
+
+  <!-- Line 9 -->
+  <text x="24" y="236" class="code-font ln">09</text>
+  <text x="56" y="236" class="code-font"><tspan class="punc">}</tspan> <tspan class="kw">as const</tspan><tspan class="punc">;</tspan></text>
+</svg>

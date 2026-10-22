@@ -1,204 +1,123 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00D9FF&center=true&vCenter=true&width=650&lines=Gandrothu+Satya+Siva+Sai+Sriram;Full+Stack+Developer;UI%2FUX+Enthusiast;Building+things+that+matter.)
+<img src="./assets/banner.svg" width="850" alt="Sriram Gandrothu — Software Developer & Full Stack Craftsman"/>
 
-<img src="https://user-images.githubusercontent.com/115386517/225841791-e6eb2fcf-6de1-45ec-a5e8-0c321f0af245.gif" width="100%" height="3px"/>
+<br/><br/>
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=sriramgandrothu&label=Profile+Views&color=00d9ff&style=flat-square" alt="profile views"/>
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/sriramgandrothu?label=Followers&style=flat-square&color=00d9ff" alt="followers"/>
-</p>
-
-</div>
+[portfolio](https://sriram.swiftproject.in/) &nbsp;·&nbsp;
+[linkedin](https://linkedin.com/in/sriram-gandrothu-2a653b219) &nbsp;·&nbsp;
+[github](https://github.com/sriramgandrothu) &nbsp;·&nbsp;
+[email](mailto:sriramgandrothu@gmail.com) &nbsp;·&nbsp;
+[instagram](https://instagram.com/sriramgandrothu)
 
 <br/>
 
-<img align="right" alt="Coding" width="360" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"/>
-
-## Gandrothu Satya Siva Sai Sriram
-
-**`Full Stack Developer  ·  UI/UX Enthusiast  ·  Open Source Contributor`**
-
-I'm a Full Stack Developer from India, passionate about crafting clean, scalable web applications and intuitive user experiences. Currently working as Software Developer at **Saptarishi Solutions Pvt. Ltd**, building production-grade systems with Next.js and Supabase.
-
-- Currently working as **Software Developer @ Saptarishi Solutions**
-- **B.Tech in Electronics & Communication**, SRKR Engineering College — GPA: 8.45 / 10.0
-- Deepening expertise in **Next.js, Full Stack Architecture & Cloud Backends**
-- **President**, PAIE Cell & **Vice President**, Student Council at SRKREC
-- **Full Stack Development Mentor** at Vedic Vision Hackathon
-- Ask me about **React, Next.js, Node.js, Supabase, UI/UX Design**
-- Reach me at **sriramgandrothu@gmail.com** · **+91 7842713943**
-
-<br clear="right"/>
-
----
-
-## Connect With Me
-
-<p align="left">
-  <a href="mailto:sriramgandrothu@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://linkedin.com/in/sriram-gandrothu-2a653b219" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://sriram.swiftproject.in/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-  </a>
-  <a href="https://github.com/sriramgandrothu" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://instagram.com/sriramgandrothu" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
-</p>
-
----
-
-## Experience
-
-### Engineering Intern — Sumeru Technology Pvt. Ltd., Bengaluru
-**Dec 2024 – Oct 2025**
-
-- Delivered core modules of an **event/course management system** using **Next.js**, **Supabase**, and **Zod**
-- Implemented robust **error handling**, **duplicate detection**, and **dynamic registration end-date logic**
-- Optimized backend logic to reduce system exceptions by **30%** during QA testing
-- Ensured clean, maintainable code through consistent testing practices
-
----
-
-## Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>KathaKaalaamsam</h3>
-      <p>A full-stack <strong>podcast platform</strong> with CRUD support, an admin dashboard for user role management, and content management across writings, vocals, and episodes. Migrated to Supabase (V2) for improved scalability and backend management.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>SwiftLinker</h3>
-      <p>A clean <strong>URL shortener</strong> built with Next.js and Supabase. Enables easy link sharing and tracks real-time <strong>usage statistics</strong> per link — built for speed and simplicity.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Event Management System</h3>
-      <p>Production-grade system built at Sumeru Technology — handles course registrations, dynamic end-date logic, duplicate detection, and edge-case error handling at scale.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Personal Projects Suite</h3>
-      <p>A collection of interactive web applications: <strong>Department Management System</strong>, Expense Tracker, Weather App, Portfolio Site, Mini-Games, Password Generator & QR Generator.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-## Tech Stack
-
-**Languages**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**Frameworks & Libraries**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-**Databases**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-**Tools & Platforms**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Adobe XD](https://img.shields.io/badge/Adobe_XD-FF61F6?style=for-the-badge&logo=adobe-xd&logoColor=white)
-![Zeplin](https://img.shields.io/badge/Zeplin-FFBE00?style=for-the-badge&logo=zeplin&logoColor=black)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![MS Excel](https://img.shields.io/badge/MS_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=sriramgandrothu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170" alt="Sriram's GitHub Stats"/>
-  &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sriramgandrothu&theme=tokyonight&hide_border=true" height="170" alt="Sriram's Streak"/>
-
-  <br/><br/>
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sriramgandrothu&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="160" alt="Top Languages"/>
-
 </div>
 
----
+<img src="./assets/hd-about.svg" width="850" alt="About &amp; System Overview"/>
 
-## Leadership & Activities
+> **Software Developer @ Saptarishi Solutions** &nbsp;·&nbsp; Full-Stack Architect &amp; UI/UX Craftsman<br>
+> Former Engineering Intern @ Sumeru Technology &nbsp;·&nbsp; B.Tech ECE, SRKREC (GPA: 8.45 / 10.0)
 
-| Role | Organization |
-|---|---|
-| Full Stack Development Mentor | Vedic Vision Hackathon, SRKREC |
-| President | PAIE Cell, SRKREC |
-| Vice President | Student Council, SRKREC |
-| Volunteer | Art of Living |
-| Executive Body Member | Language Nest, SRKREC |
-
----
-
-## Education
-
-| Degree | Institution | Year | GPA |
-|---|---|---|---|
-| B.Tech — Electronics & Communication Engineering | SRKR Engineering College | 2021 – 2025 | 8.45 / 10.0 |
-| Grade 12 (Intermediate) | Tirumala Junior College | 2019 – 2021 | 9.67 / 10.0 |
-| Grade 10 (SSC) | Sri Siddhartha E.M High School | 2018 – 2019 | 9.80 / 10.0 |
-
----
-
-<div align="center">
-
-> *"First, solve the problem. Then, write the code."* — John Johnson
+I engineer resilient, scalable web applications and high-fidelity user experiences designed for peak performance.<br>
+Currently building production-grade enterprise platforms utilizing **Next.js 14**, **TypeScript**, **Supabase**, and **PostgreSQL**.<br>
+Focused on clean architectural patterns, robust API boundaries, and eliminating production exceptions through strict validation schemas.
 
 <br/>
 
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
+<img src="./assets/dev-card.svg" width="850" alt="Developer Specification Card"/>
 
-**Thank you for visiting — feel free to explore my repositories and drop a star if something catches your eye.**
+<br/><br/>
+
+<img src="./assets/hd-stack.svg" width="850" alt="Tech Radar &amp; Arsenal"/>
+
+**Core Languages**<br>
+<samp>typescript &nbsp;·&nbsp; javascript &nbsp;·&nbsp; python &nbsp;·&nbsp; java &nbsp;·&nbsp; sql &nbsp;·&nbsp; c</samp>
+
+**Frontend &amp; UI Architecture**<br>
+<samp>next.js (app router) &nbsp;·&nbsp; react 19 &nbsp;·&nbsp; tailwindcss &nbsp;·&nbsp; vue.js &nbsp;·&nbsp; figma &nbsp;·&nbsp; responsive ui/ux &nbsp;·&nbsp; bootstrap</samp>
+
+**Backend, Data &amp; Cloud**<br>
+<samp>node.js &nbsp;·&nbsp; express.js &nbsp;·&nbsp; supabase v2 &nbsp;·&nbsp; postgresql &nbsp;·&nbsp; mongodb &nbsp;·&nbsp; rest apis &nbsp;·&nbsp; zod &nbsp;·&nbsp; edge functions</samp>
+
+**Tooling &amp; Systems**<br>
+<samp>git &nbsp;·&nbsp; docker &nbsp;·&nbsp; vs code &nbsp;·&nbsp; postman &nbsp;·&nbsp; vercel &nbsp;·&nbsp; linux &nbsp;·&nbsp; adobe xd &nbsp;·&nbsp; zeplin &nbsp;·&nbsp; power bi</samp>
+
+<br/><br/>
+
+<img src="./assets/hd-projects.svg" width="850" alt="Featured Work &amp; Production Systems"/>
+
+**KathaKaalaamsam** &nbsp;·&nbsp; <samp>next.js · supabase v2 · react · tailwind · edge storage</samp><br>
+Full-stack podcast and multimedia platform with end-to-end CRUD capabilities, administrative role-based access control (RBAC), and dynamic content management for audio streaming, voice archives, and writings. Migrated to Supabase V2 to achieve seamless cloud scalability and sub-second asset retrieval.
+
+**SwiftLinker** &nbsp;·&nbsp; <samp>next.js · supabase · typescript · analytics engine</samp><br>
+High-performance URL engine with instantaneous link redirection and real-time usage telemetry. Engineered with edge-caching logic to track visitor metrics, device distribution, and click velocity with minimal latency.
+
+**Enterprise Event Management Engine** &nbsp;·&nbsp; <samp>next.js · zod · supabase · concurrency guard</samp><br>
+Production-grade event and course registration platform engineered at Sumeru Technology. Implemented dynamic cutoff logic, idempotent duplicate registration prevention, and strict validation schemas that **reduced system exceptions by 30%** during QA and load testing.
+
+**Department Management Suite** &nbsp;·&nbsp; <samp>react · node.js · express · postgresql</samp><br>
+Comprehensive organizational platform handling student information architecture, staff resource allocations, real-time expense telemetry, and localized utility services.
+
+<br/><br/>
+
+<img src="./assets/hd-experience.svg" width="850" alt="Engineering Timeline &amp; Experience"/>
+
+**Saptarishi Solutions Pvt. Ltd.** &nbsp;·&nbsp; <samp>Software Developer</samp><br>
+*Bengaluru, India*<br>
+- Leading full-stack engineering initiatives utilizing Next.js, Supabase, and TypeScript.
+- Designing responsive, accessible frontend architectures and robust backend data services.
+- Collaborating with cross-functional teams to translate complex requirements into resilient production code.
+
+**Sumeru Technology Pvt. Ltd.** &nbsp;·&nbsp; <samp>Engineering Intern</samp><br>
+*Dec 2024 – Oct 2025 · Bengaluru, India*<br>
+- Delivered core course &amp; event management modules using Next.js, Supabase, and Zod.
+- Formulated fault-tolerant validation logic that decreased runtime QA exceptions by **30%**.
+- Enforced modular software architecture, standardized error handling, and end-to-end QA coverage.
+
+**Leadership &amp; Institutional Impact** &nbsp;·&nbsp; <samp>SRKR Engineering College</samp><br>
+- **Mentor**, Full Stack Development @ Vedic Vision Hackathon (coaching 50+ engineers).
+- **President**, PAIE Cell &amp; **Vice President**, Student Council at SRKREC.
+- **Volunteer &amp; Community Member**, Art of Living &amp; Language Nest.
+
+<br/><br/>
+
+<img src="./assets/hd-stats.svg" width="850" alt="GitHub Telemetry &amp; Stats"/>
+
+<img src="./assets/stats-card.svg" width="850" alt="Activity Sparkline &amp; Production Telemetry"/>
+
+<br/><br/>
+
+<img src="./assets/langs-card.svg" width="850" alt="Language Distribution"/>
+
+<br/><br/>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sriramgandrothu&background=0a0e17&border=1e293b&stroke=38bdf8&ring=38bdf8&fire=38bdf8&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&hide_border=false" height="175" alt="GitHub Streak Stats"/>
+
+</div>
+
+<br/><br/>
+
+<img src="./assets/hd-contact.svg" width="850" alt="Transmission &amp; Connect"/>
+
+| Channel | Endpoint | Protocol |
+|:---|:---|:---|
+| **Portfolio** | [sriram.swiftproject.in](https://sriram.swiftproject.in/) | HTTP/3 Web |
+| **LinkedIn** | [/in/sriram-gandrothu](https://linkedin.com/in/sriram-gandrothu-2a653b219) | Direct Message |
+| **GitHub** | [@sriramgandrothu](https://github.com/sriramgandrothu) | Repositories &amp; Stars |
+| **Email** | [sriramgandrothu@gmail.com](mailto:sriramgandrothu@gmail.com) | Priority Inquiries |
+| **Direct Phone** | `+91 7842713943` | Voice &amp; WhatsApp |
+
+<br/>
+
+<div align="center">
+
+<samp>“First solve the problem. Then, write the code.”</samp>
+
+<br/><br/>
+
+<samp>Engineered with craft by <strong>Sriram Gandrothu</strong> · Zero external bloat · Self-contained vector telemetry</samp>
 
 </div>
