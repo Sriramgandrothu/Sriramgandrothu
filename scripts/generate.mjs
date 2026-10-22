@@ -217,6 +217,23 @@ try {
   days = Object.keys(m).sort().map(d => ({ d, ...m[d] }));
   total = days.reduce((a, b) => a + b.n, 0);
 } catch (e) { console.warn('contributions fetch failed', e.message); }
+
+let allTimeBest = 92;
+try {
+  const allRes = await fetch('https://github-contributions-api.jogruber.de/v4/' + USER, { headers: { 'User-Agent': 'readme-gen' }, signal: AbortSignal.timeout(5000) });
+  if (allRes.ok) {
+    const allData = await allRes.json();
+    if (allData && allData.contributions && allData.contributions.length) {
+      let r = 0, m = 0;
+      const sorted = allData.contributions.sort((a,b) => a.date.localeCompare(b.date));
+      for (const d of sorted) {
+        r = d.count > 0 ? r + 1 : 0;
+        if (r > m) m = r;
+      }
+      if (m > 0) allTimeBest = m;
+    }
+  }
+} catch (e) { console.warn('all-time contributions fallback:', e.message); }
 try {
   const list = (await getJson(`https://api.github.com/users/${USER}/repos?per_page=100`)).filter(r => !r.fork);
   repos = list.length; list.forEach(r => r.language && (langs[r.language] = (langs[r.language] || 0) + 1));
@@ -231,6 +248,7 @@ try {
     cells += `<rect x="${ox + col * (cs + gp)}" y="${oy + row * (cs + gp)}" width="${cs}" height="${cs}" rx="2" class="l${o.level}" opacity="0"><animate attributeName="opacity" to="1" begin="${(col * 0.03).toFixed(2)}s" dur=".3s" fill="freeze"/></rect>`;
     run = o.n > 0 ? run + 1 : 0; best = Math.max(best, run);
   });
+  best = Math.max(best, allTimeBest);
   for (let i = days.length - 1; i >= 0; i--) { if (days[i].n > 0) cur++; else if (i < days.length - 1) break; }
   const legend = [0, 1, 2, 3, 4].map((l, i) => `<rect x="${700 + i * 16}" y="156" width="11" height="11" rx="2" class="l${l}"/>`).join('');
   write('activity.svg', svg(900, 180, `${cells}<text x="20" y="22" font-size="13" font-family="${MONO}" class="mu">${total} contributions in the last year</text>
